@@ -16,6 +16,12 @@
 		DB13CED12509E2DF00C27A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB13CECF2509E2DF00C27A47 /* LaunchScreen.storyboard */; };
 		DB13CEDC2509E2DF00C27A47 /* leftTable3levelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13CEDB2509E2DF00C27A47 /* leftTable3levelDemoTests.swift */; };
 		DB13CEE72509E2DF00C27A47 /* leftTable3levelDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13CEE62509E2DF00C27A47 /* leftTable3levelDemoUITests.swift */; };
+		DB13CEF52509E32300C27A47 /* Root.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB13CEF42509E32300C27A47 /* Root.xib */; };
+		DB13CEF72509E33000C27A47 /* Parent.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB13CEF62509E33000C27A47 /* Parent.xib */; };
+		DB13CEF92509E33800C27A47 /* Child.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB13CEF82509E33800C27A47 /* Child.xib */; };
+		DB13CEFB2509E35F00C27A47 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13CEFA2509E35F00C27A47 /* Root.swift */; };
+		DB13CEFD2509E37500C27A47 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13CEFC2509E37500C27A47 /* Parent.swift */; };
+		DB13CEFF2509E38900C27A47 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13CEFE2509E38900C27A47 /* Child.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		DB13CEE22509E2DF00C27A47 /* leftTable3levelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leftTable3levelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB13CEE62509E2DF00C27A47 /* leftTable3levelDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leftTable3levelDemoUITests.swift; sourceTree = "<group>"; };
 		DB13CEE82509E2DF00C27A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB13CEF42509E32300C27A47 /* Root.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Root.xib; sourceTree = "<group>"; };
+		DB13CEF62509E33000C27A47 /* Parent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Parent.xib; sourceTree = "<group>"; };
+		DB13CEF82509E33800C27A47 /* Child.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Child.xib; sourceTree = "<group>"; };
+		DB13CEFA2509E35F00C27A47 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		DB13CEFC2509E37500C27A47 /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		DB13CEFE2509E38900C27A47 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +116,13 @@
 				DB13CEC12509E2DC00C27A47 /* AppDelegate.swift */,
 				DB13CEC32509E2DC00C27A47 /* SceneDelegate.swift */,
 				DB13CEC52509E2DC00C27A47 /* ViewController.swift */,
+				DB13CEF42509E32300C27A47 /* Root.xib */,
+				DB13CEFA2509E35F00C27A47 /* Root.swift */,
 				DB13CEC72509E2DC00C27A47 /* Main.storyboard */,
+				DB13CEF62509E33000C27A47 /* Parent.xib */,
+				DB13CEFC2509E37500C27A47 /* Parent.swift */,
+				DB13CEF82509E33800C27A47 /* Child.xib */,
+				DB13CEFE2509E38900C27A47 /* Child.swift */,
 				DB13CECD2509E2DF00C27A47 /* Assets.xcassets */,
 				DB13CECF2509E2DF00C27A47 /* LaunchScreen.storyboard */,
 				DB13CED22509E2DF00C27A47 /* Info.plist */,
@@ -235,8 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB13CEF72509E33000C27A47 /* Parent.xib in Resources */,
 				DB13CED12509E2DF00C27A47 /* LaunchScreen.storyboard in Resources */,
+				DB13CEF52509E32300C27A47 /* Root.xib in Resources */,
 				DB13CECE2509E2DF00C27A47 /* Assets.xcassets in Resources */,
+				DB13CEF92509E33800C27A47 /* Child.xib in Resources */,
 				DB13CEC92509E2DC00C27A47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +287,9 @@
 				DB13CEC22509E2DC00C27A47 /* AppDelegate.swift in Sources */,
 				DB13CECC2509E2DC00C27A47 /* leftTable3levelDemo.xcdatamodeld in Sources */,
 				DB13CEC42509E2DC00C27A47 /* SceneDelegate.swift in Sources */,
+				DB13CEFB2509E35F00C27A47 /* Root.swift in Sources */,
+				DB13CEFF2509E38900C27A47 /* Child.swift in Sources */,
+				DB13CEFD2509E37500C27A47 /* Parent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
